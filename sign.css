@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: project_font;
+  src: url(./tull/Lora-VariableFont_wght.ttf);
+}
+
+body{
+  font-family: project_font;
+}
+
+@font-face {
+  font-family: button_font;
+  src: url(./tull/Anton-Regular.ttf);
+}
+
+button{ font-family: button_font;}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(./Tull/glass\ and\ wood.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sign_box {
+  height: 600px;
+  width: 500px;
+  background-color: #bd4f00;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.fa-user {
+  color: white;
+  font-size: 50px;
+}
+
+.fill {
+  width: 400px;
+  height: 50px;
+  padding-inline-start: 10px;
+  border-radius: 50px;
+  border: none;
+  font-size: 20px;
+}
+
+.lg_in {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 50px;
+  font-size: 20px;
+  color: #bd4f00;
+  cursor: pointer;
+}
+
+.frg {
+  color: white;
+  text-decoration: none;
+}
+
+.frg:hover {
+  text-decoration: underline;
+}
+
+  .cont:hover{
+    text-decoration: underline;
+    color:#bd4f00;
+  }
