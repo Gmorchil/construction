@@ -13,7 +13,7 @@ html {
   src: url(./tull/Lora-VariableFont_wght.ttf);
 }
 
-body{
+body {
   font-family: project_font;
 }
 
@@ -22,13 +22,14 @@ body{
   src: url(./tull/Anton-Regular.ttf);
 }
 
-button{ font-family: button_font;}
+button {
+  font-family: button_font;
+}
 
 .all_sz {
   max-width: 1550px;
   margin: auto;
 }
-
 
 nav {
   height: 50px;
@@ -126,7 +127,6 @@ nav a img {
   text-decoration: none;
   color: #bd4f00;
   font-size: medium;
-  
 }
 
 .shaw {
@@ -185,15 +185,6 @@ footer {
   color: white;
 }
 
-.menu {
-  width: 100px;
-  height: 300px;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
 .footer_cl {
   color: white;
   text-decoration: none;
@@ -201,7 +192,7 @@ footer {
 
 .menu {
   width: 200px;
-  height: 200px;
+  height: 300px;
   color: white;
   display: flex;
   flex-direction: column;
@@ -277,44 +268,42 @@ hr {
   height: 1px;
   background-color: black;
   border: none;
-  animation:  line 1s;
+  animation: line 1s;
 }
 
-.our_miss{
-    background-color: #F7F7F7;
-    height: 800px;
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
+.our_miss {
+  background-color: #f7f7f7;
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
 }
 
-.our_miss_left{
-    width: 50%;
-    height: 100%;
+.our_miss_left {
+  width: 50%;
+  height: 100%;
 }
 
-.our_miss_left img{
-    padding: 50px 0 50px 50px;
-    width: 100%;
-    height: 100%;
-    animation: pic 1s;
+.our_miss_left img {
+  padding: 50px 0 50px 50px;
+  width: 100%;
+  height: 100%;
+  animation: pic 1s;
 
-    animation:  pic 1s;
+  animation: pic 1s;
 }
 
-.our_miss_right{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 50px 0;
+.our_miss_right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px 0;
 }
-.our_miss_right_p{
-    width: 55%;
-    font-size: 20px;
+.our_miss_right_p {
+  width: 55%;
+  font-size: 20px;
 }
-
-
 
 @keyframes pic {
   0% {
@@ -342,7 +331,49 @@ a:hover {
   text-decoration: underline;
 }
 
-  .cont:hover{
-    text-decoration: underline;
-    color:#bd4f00;
+.cont:hover {
+  text-decoration: underline;
+  color: #bd4f00;
+}
+
+/*size*/
+
+@media (max-width: 1100px) {
+  .nav_right {
+    display: none;
   }
+
+  .burger {
+    display: flex;
+  }
+
+  .burger #fa-bars {
+    display: flex;
+  }
+}
+
+@media (max-width: 900px) {
+  footer {
+    flex-direction: column;
+    height: auto;
+  }
+}
+
+@media (max-width: 645px) {
+  .footer_right {
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+
+  .ho {
+    height: 150px;
+  }
+
+  .inq {
+    height: 220px;
+  }
+
+  .menu {
+    height: 240px;
+  }
+}
