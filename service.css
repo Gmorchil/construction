@@ -20,6 +20,11 @@ body{
 
 button{ font-family: button_font;}
 
+.all_sz {
+  max-width: 1550px;
+  margin: auto;
+}
+
 nav {
   height: 50px;
   display: flex;
