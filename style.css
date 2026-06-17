@@ -480,7 +480,7 @@ a:hover {
 
 footer {
   background-color: #bd4f00;
-  height: 600px;
+  height: auto;
   padding: 100px 50px;
   display: flex;
   flex-direction: row;
