@@ -340,4 +340,28 @@ footer {
 
 }
 
+footer {
+
+  padding: 50px 20px;
+
+}
+
+.footer_left {
+  width: 100%;
+padding: 50px 0;
+}
+
+.logo_white {
+  width: 100%;
+}
+
+.footer_cntus {
+  width: 100%;}
+
+
+.footer_cntus a {
+  color:#bd4f00;
+  font-size: larger;
+  text-decoration: none;
+}
 }

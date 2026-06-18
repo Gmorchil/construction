@@ -135,10 +135,14 @@ nav a img {
 
 section {
   padding: 100px 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column ;
+  gap: 20px;
 }
 
 .sec_title {
-  width: 30%;
+  width: 40%;
 }
 
 .h3_sec {
@@ -151,21 +155,23 @@ section {
 }
 
 .vacancy {
+  width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4,  auto);
   gap: 20px;
-  margin-block: 50px;
 }
 
 .vacancy_box {
   background-color: #f7f7f7;
-  width: 340px;
+  max-width: 340px;
   height: 400px;
   padding: 20px;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
+  
 }
+
 
 .org_button {
   height: 50px;
@@ -276,6 +282,17 @@ a:hover {
 
    .burger #fa-bars {display: flex;}
 
+   .vacancy {
+
+  grid-template-columns: repeat(2,  auto);
+justify-content: center;
+}
+.sec_title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 
 }
 
@@ -309,4 +326,56 @@ a:hover {
 
 }
 
+footer {
+
+  padding: 50px 20px;
+
+}
+
+.footer_left {
+  width: 100%;
+padding: 50px 0;
+}
+
+.logo_white {
+  width: 100%;
+}
+
+.footer_cntus {
+  width: 100%;}
+
+
+.footer_cntus a {
+  color:#bd4f00;
+  font-size: larger;
+  text-decoration: none;
+}
+
+   .vacancy {
+
+  grid-template-columns: auto;
+  justify-content: center;
+
+}
+
+.h3_sec {
+  font-size: 15px;
+}
+
+.h1_sec {
+  font-size: 20px;
+  
+}
+
+.vacancy_box p{
+font-size: smaller;
+  
+}
+
+
+.org_button {
+  height: 30px;
+  width: 120px;
+
+}
 }
