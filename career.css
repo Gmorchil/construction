@@ -296,7 +296,7 @@ justify-content: center;
 
 }
 
-@media (max-width:900px) {
+@media (max-width:1020px) {
   footer{
     flex-direction:column;
     height: auto;
@@ -304,7 +304,7 @@ justify-content: center;
   
 }
 
-@media (max-width:645px) {
+@media (max-width:720px) {
 
   .footer_right {
   grid-template-columns: 1fr 1fr;
