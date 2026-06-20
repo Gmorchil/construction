@@ -818,7 +818,7 @@ footer {
   }
 
   .our_clnt_box {
-    width: 500px;
+    max-width: 500px;
     height: 100px;
     display: flex;
     justify-content: center;

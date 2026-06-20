@@ -200,7 +200,7 @@ footer {
 
 header{
     padding: 100px 50px;
-    height: 400px;
+    height: auto;
     background-color: black;
     
 }
@@ -255,6 +255,11 @@ a:hover {
     flex-direction:column;
     height: auto;
   }
+
+  header p{
+  width: 100%;
+
+}
   
 }
 
@@ -303,5 +308,16 @@ padding: 50px 0;
   color:#bd4f00;
   font-size: larger;
   text-decoration: none;
+}
+
+
+section h1{
+    font-size: 30px;
+    
+}
+
+section{
+    padding: 100px 50px;
+    width: 100%;
 }
 }
