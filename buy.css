@@ -157,6 +157,7 @@ button {
   padding-top: 200px;
   gap: 50px;
   height: auto;
+  overflow: hidden;
 }
 
 .place {
@@ -168,6 +169,8 @@ button {
   margin: 50px 20px 0 20px;
   width: 200px;
   height: fit-content;
+  animation: anim 1s;
+  
 }
 
 .place .search_box {
@@ -176,6 +179,7 @@ button {
   gap: 20px;
   width: 100%;
   padding: 10px;
+  
 }
 
 .button input {
@@ -198,6 +202,8 @@ article {
   height: auto;
   gap: 30px;
   padding: 50px 20px;
+animation: pic 1s;
+
 }
 
 .city {
@@ -342,6 +348,26 @@ footer {
   gap: 10px;
 }
 
+@keyframes anim {
+  0% {
+    transform: translateX(-300px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes pic {
+  0% {
+    transform: translateX(500px);
+    
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/*size*/
 @media (max-width: 1100px) {
   .nav_right {
     display: none;
