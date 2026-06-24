@@ -172,6 +172,7 @@ button {
     gap: 50px;
 }
 
+
 .place .search_box{
     display: flex;
     flex-direction: column;
@@ -179,7 +180,7 @@ button {
     margin: 50px 20px 0 20px;
     padding: 10px;
     width: 100%;
-    background-color: #bd4f00;
+     background-color: #bd4f00;
     border: none;
     border-radius: 20px;
     box-shadow: black 0px 4px 10px;
@@ -207,7 +208,7 @@ article{
     grid-template-columns: auto auto auto auto;
     align-items: center;
     height: 100vh;
-    gap: 20px;
+    gap: 30px;
     padding: 50px 20px;
 }
 
@@ -249,10 +250,16 @@ flex-direction: column;
 
 
 
+.city:hover{
+    transform: scale(1.1);
+}
 
 
 
 
+
+
+/*city Filter*/
 
 body:has(#tbilisi:checked) .city:not(.tbilisi){
     display: none;
@@ -270,6 +277,21 @@ body:has(#prague:checked) .city:not(.prague){
     display: none;
 }
 body:has(#tokyo:checked) .city:not(.tokyo){
+    display: none;
+}
+
+/*Floor Filter*/
+
+body:has(#floor_1:checked) .city:not(.floor_1){
+    display: none;
+}
+body:has(#floor_2:checked) .city:not(.floor_2){
+    display: none;
+}
+body:has(#floor_3:checked) .city:not(.floor_3){
+    display: none;
+}
+body:has(#floor_4:checked) .city:not(.floor_4){
     display: none;
 }
 
