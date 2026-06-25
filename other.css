@@ -368,9 +368,6 @@ article {
   width: 100%;
 }
 
-
-
-
 .slider-container {
   width: 100%;
   max-width: 1450px;
@@ -379,18 +376,16 @@ article {
   border-radius: 8px;
 }
 
-
 .slider-track {
   display: flex;
-  width:200%;
+  width: 200%;
   animation: mechanicalSlide 20s linear infinite;
-
 }
 
 .slide-item {
   width: 50%;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   align-items: center;
   padding: 20px;
   box-sizing: border-box;
@@ -415,9 +410,6 @@ article {
     transform: translateX(-50%);
   }
 }
-
-
-
 
 /*size*/
 
